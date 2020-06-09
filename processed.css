@@ -1,0 +1,61 @@
+body{
+    font-family: "Arial", Helvetica, sans-serif;
+    background: rgb(166,166,166);
+}
+
+h1{
+    text-align:left;
+    font-size: 5vw;
+    margin-top: 0px;
+    width: 100%;
+    position:relative;
+}
+
+img{
+    display: flex;
+    position:relative;
+    width:50%;
+    height: auto;
+    margin-left: -30px;
+    margin-top: 20px;
+    max-width: 20%;
+}
+
+ul {                /*CSS for unordered list*/
+    display: flex;
+    align-content:space-between;
+    padding:5px;
+    list-style-type:none;
+    float:left;
+    width:100%;
+    background-color:rgb(166, 166, 166);
+    text-align: center;
+    font-size: 2vw;
+    position:relative;
+    margin-top: 0px;
+    z-index: 16;
+    margin-top: -40px;
+}
+
+li {                        /*CSS for list tag*/
+    border: 3px solid black;
+    float: left;
+    position: relative;
+    padding: 1px;
+    width: 230px;
+    border-radius: 10px;
+}
+
+li a {              /*CSS for anchor tags within lists*/
+    background-color:rgb(166, 166, 166);
+    display:block;
+    padding: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+li:hover {          /*CSS for hover effect over lists*/
+    text-decoration: underline;
+
+    background-color: black;
+}

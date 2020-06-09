@@ -1,0 +1,89 @@
+/*This is external stylesheet for About Us page*/
+
+body {          /*CSS for body tag*/
+    background-color: rgb(166, 166, 166);
+    font-family: Arial, "Helvetica", sans-serif;
+}
+
+h1{
+    text-align:left;
+    font-size: 10vw;
+    margin-top: 0px;
+    width: 100%;
+    position:relative;
+}
+
+ul {                /*CSS for unordered list*/
+    display: flex;
+    align-content:space-between;
+    padding:5px;
+    list-style-type:none;
+    float:left;
+    width:95%;
+    background-color:rgb(166, 166, 166);
+    text-align: center;
+    font-size: 2vw;
+    position:relative;
+    margin-top: 0px;
+    z-index: 16;
+    margin-top: -40px;
+}
+
+li {                        /*CSS for list tag*/
+    border: 3px solid black;
+    float: left;
+    position: relative;
+    padding: 1px;
+    width: 230px;
+    border-radius: 10px;
+}
+
+li a {              /*CSS for anchor tags within lists*/
+    background-color:rgb(166, 166, 166);
+    display:block;
+    padding: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+li:hover {          /*CSS for hover effect over lists*/
+    text-decoration: underline;
+  
+    background-color: black;
+}
+
+footer{             /*CSS for footer tag*/
+    margin-top: 300px;
+    margin-left: 37%;
+    width: 100%;
+}
+
+img{                /*CSS for image tag*/
+    display: flex;
+    position:relative;
+    width:50%;
+    height: auto;
+    margin-left: -30px;
+    margin-top: 20px;
+    max-width: 20%;
+}
+
+.social {           /*CSS for social class*/
+    display: flex;
+    position:relative;
+    width:50%;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 20px;
+    max-width: 10%;
+    float: left;
+
+}
+
+h2 {            /*CSS for sub heading*/
+    text-align:left;
+    font-size: 5vw;
+    margin-top: 0px;
+    width: 100%;
+    position:relative;
+}

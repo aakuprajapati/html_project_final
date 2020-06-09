@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Buy Mobile Phone</title>
+		<link href="css/buy.css" rel="stylesheet" media="screen">
+	</head>
+
+    <body>
+		<header>
+
+            <h1>Buy Mobile Phones</h1>
+
+            <nav>
+                <ul>
+									<li>
+										<a href="index.html" target="_top">Home</a>
+									</li>
+                    <li>
+                    <a href="About_us.html" target="_top">About Us</a>
+                    </li>
+                </ul>
+            </nav>
+		</header>
+
+		<main>
+            <form action="processed.html">
+             <fieldset>
+                <legend>Select Mobile Phones</legend> <!--PAYMENT TYPE SECTION-->
+                <input type="checkbox"> <label>iPhone X</label><img src="images/iphonex.png" alt="iPhone x"><br>
+                <input type="checkbox"> <label>iPhone Xs</label><img src="images/iphone-xs-sg-front.png" alt="iPhoneXS"> <br>
+                <input type="checkbox"> <label>iPhone Xs Max</label><img src="images/iphonexsmax.png" alt="iPhoneXSMax"> <br>
+                 <input type="checkbox"> <label>iPhone XR</label><img src="images/iphonexr.png" alt="iPhoneXR">
+            </fieldset>
+                <br>
+                <br>
+
+                <fieldset>
+                <legend>Payment Method</legend> <!--PAYMENT TYPE SECTION-->
+                <input type="radio" name="pay"> <label>Cash On Delivery</label> <br>
+                <input type="radio" name="pay"> <label>Debit Card</label> <br>
+                <input type="radio" name="pay"> <label>Credit Card</label>
+            </fieldset>
+
+            <br>
+            <br>
+
+            <fieldset>
+                <legend>Debit/Credit Card Information</legend> <!--CARD INFORMATION SECTION-->
+                Name on the card:<input type="text" id="box"> <br>
+               Card Number: <input type="text" id="box"> <br>
+                Expiry Date:<input type="month" id="box"> <br>
+                CVV:<input type="tel" id="box"> <br>
+            </fieldset>
+
+            <input type="submit" value="Order" class="order"> <!--ORDER BUTTON-->
+                <input type="reset" value="Reset" class="order">
+        </form>
+        </main>
+        <footer>
+            <p><small>Made by Aakash Prajapati(200446804)</small></p>
+        </footer>
+	</body>
+</html>
