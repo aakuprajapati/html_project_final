@@ -1,0 +1,110 @@
+body {          /*CSS for body tag*/
+    background-color: rgb(166, 166, 166);
+    font-family: Arial, "Helvetica", sans-serif;
+}
+
+h1{
+    text-align:left;
+    font-size: 10vw;
+    margin-top: 0px;
+    width: 100%;
+    position:relative;
+}
+
+ul {                /*CSS for unordered list*/
+    display: flex;
+    align-content:space-between;
+    padding:5px;
+    list-style-type:none;
+    float:left;
+    width:95%;
+    background-color:rgb(166, 166, 166);
+    text-align: center;
+    font-size: 2vw;
+    position:relative;
+    margin-top: 0px;
+    z-index: 16;
+    margin-top: -30px;
+}
+
+li {                        /*CSS for list tag*/
+    border: 3px solid black;
+    float: left;
+    position: relative;
+    padding: 1px;
+    width: 230px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+
+li a {              /*CSS for anchor tags within lists*/
+    background-color:rgb(166, 166, 166);
+    display:block;
+    padding: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+li:hover {          /*CSS for hover effect over lists*/
+    text-decoration: underline;
+
+    background-color: black;
+}
+
+footer{         /*CSS for footer*/
+    margin-top: 200px;
+    margin-left: 37%;
+}
+
+img{            /*CSS for image tag*/
+    display: flex;
+    position:relative;
+    width:50%;
+    height: 60%;
+    margin-left: 0px;
+    margin-top: 20px;
+    max-width: 20%;
+}
+
+form{       /*CSS for form tag*/
+    position:relative;
+    font-size: 2vw;
+}
+
+.order {            /*CSS for order class*/
+    background-color:black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+fieldset{           /*CSS for fieldset tag*/
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.order:hover {      /*CSS for order class on hover*/
+    text-transform: uppercase;
+}
+
+legend {            /*CSS for legend tag*/
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+#box {          /*CSS for id="box"*/
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 3vw;
+    width: auto;
+}
